@@ -23,6 +23,7 @@ img {
   }
   
   .navbar-btn {
+    background-color:#f9f9f9
     .navbar-vertical-align(@input-height-base);
   
     &.btn-sm {
