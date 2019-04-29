@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Margaret Ulrich's portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+ <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACEhIQAxsbGAP///wAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMzMzMwAAADMzMzMwERERAzMzMwEiIiIQMzMzASIiIhAAMzMBIiIiEDMDMwEiIiIQMwMzASIiIhAzAzMBIiIiEDMDMwEREREQADMzAAAAAAAzMzMzMTMTMzMzMzMxMxMzMzMzMxMxMzMzMzMzEzEzMzMzMzMzMzMzMzP//wAA8D8AAOAfAADADwAAwAMAAMANAADADQAAwA0AAMANAADAAwAAwA8AAPt/AAD7fwAA9v8AAPb/AAD//wAA" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a><span class="sr-only">(current)</span></li>
+          <li><a href="weather.html">
+              Weather Visualizations
+            </a></li>
+          <li><a href="\leaflet\index.html">
+            Earthquakes
+          </a></li>
+          <li> 
+            <a href="http://www.github.com/msulrich1984">
+              GitHub</a></li>
+          <li><a href="tableau.html">
+              Tableau
+            </a></li>
+          <li><a href="mars.html">
+            Mars
+          </a></li>
+        </ul>
+        
+        </nav>
+  <div class="container">
+    <div class="row">
+      <h1>Mission to Mars</h1>
+      <br>
+      <p>I have built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what was done.</p>
+        <br>
+        <p>I created a Jupyter Notebook to complete scraping and analysis for this purpose. It is on my <a href="https://github.com/msulrich1984/12-Web-Scraping-and-Document-Databases">GitHub</a>.</p>
+        <br>
+        <p>I scraped the <a href="https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest">NASA Mars News</a> site for relevant information.</p>
+        <br>
+        <p>I used Splinter to navigate the <a href="https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars">JPL Featured Space Image</a> site to grab images.</p>
+        <br>
+        <p>I scraped the <a href="https://twitter.com/marswxreport?lang=en">Mars Weather Report</a> Twitter to scrape information about the weather on Mars.</p>
+        <br>
+        <p>I scraped the <a href="https://space-facts.com/mars/">Mars Facts</a> page to obtain facts about Mars.</p>
+        <br>
+        <p>I obtained high resolution images of Mars' hemispheres from the <a href="https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars">USGS Astrogeology Science Center</a> website.</p>
+        </p>
+        <p>
+            I used MongoDB with Flask, templating a new HTML page that displays all the information that was scraped. Further information for this is on my <a href="https://github.com/msulrich1984/12-Web-Scraping-and-Document-Databases">GitHub</a> site previously mentioned.
+        </p>
+    </div>
+    </div>
+  </div>
+      <br>
+</body>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+  <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="mailto:maggie.ulrich@gmail.com"> Margaret Ulrich</a>, 2019
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>
+ 
