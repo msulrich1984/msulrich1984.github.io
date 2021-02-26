@@ -42,7 +42,7 @@ function createFeatures(earthquakeData) {
 function createMap(earthquakes) {
 
     // Define different map layers
-    var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
+    var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v11/tiles/256/{z}/{x}/{y}?" +
       "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJjanRsa211cDcwY2Z2NGFvNnk3NTZmaHFtIn0.hRKHFtfIyv5Eub9KazINmA" +
       "T6YbdDixkOBWH_k9GbS8JQ");
 
