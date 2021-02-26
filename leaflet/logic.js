@@ -40,11 +40,10 @@ function createFeatures(earthquakeData) {
 
 
 function createMap(earthquakes) {
-
-    // Define different map layers
+    //Define access token
+    var accessToken = "pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xteTA2ZWMwM3lsMnZvNDlyemYwY2NtIn0.X40CcPKvNuPGRNeJd4LPkQ"
     var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
-      "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xteTA2ZWMwM3lsMnZvNDlyemYwY2NtIn0.X40CcPKvNuPGRNeJd4LPkQ" +
-      "T6YbdDixkOBWH_k9GbS8JQ");
+      "access_token=" + accessToken;
 
     var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/256/{z}/{x}/{y}?" +
       "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xteTA2ZWMwM3lsMnZvNDlyemYwY2NtIn0.X40CcPKvNuPGRNeJd4LPkQ." +
