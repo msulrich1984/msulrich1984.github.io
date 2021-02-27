@@ -70,14 +70,6 @@ function createMap(earthquakes) {
     "Street Map": streetmap,
     "Satellite Map" : satellite    
   };
-  });
-
-  // Define a baseMaps object to hold our base layers
-  var baseMaps = {
-    "Light Map": lightmap,
-    "Street Map": streetmap,
-    "Satellite Map" : satellite    
-  };
     // Creat a layer for the tectonic plates
     var tectonicPlates = new L.LayerGroup();
 
