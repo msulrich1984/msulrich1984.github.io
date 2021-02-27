@@ -42,7 +42,7 @@ function createFeatures(earthquakeData) {
 function createMap(earthquakes) {
     //set variables for layers
     var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
-      "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA."+"T6YbdDixkOBWH_k9GbS8JQ");
+      "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA"+"T6YbdDixkOBWH_k9GbS8JQ");
 
     var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v8/tiles/256/{z}/{x}/{y}?" +
       "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA" +
