@@ -69,7 +69,7 @@ function createMap(earthquakes) {
     "Light Map": lightmap,
     "Street Map": streetmap,
     "Satellite Map" : satellite    
-  };"
+  };
   });
 
   // Define a baseMaps object to hold our base layers
