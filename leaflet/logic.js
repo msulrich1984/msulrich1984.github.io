@@ -41,7 +41,7 @@ function createFeatures(earthquakeData) {
 
 function createMap(earthquakes) {
   //set variable for access token
-  L.mapbox.accessToken = 'pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA';
+ // L.mapbox.accessToken = 'pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA';
   
   //set variables for layers
  // var satellite = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
