@@ -48,7 +48,7 @@ function createMap(earthquakes) {
      attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
      maxZoom: 18,
      id: 'mapbox.satellite',
-     accessToken: pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA
+     accessToken: pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA;
   });
   
   // var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
