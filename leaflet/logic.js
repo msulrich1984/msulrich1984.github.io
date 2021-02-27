@@ -41,34 +41,6 @@ function createFeatures(earthquakeData) {
 
 function createMap(earthquakes) {
    
-  //set variables for layers
- // var satellite = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
- //    attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
- //    maxZoom: 18,
- //    id: 'mapbox.satellite',
- //    accessToken: API_KEY
- // });
-  
-  // var satellite = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?" +
-      //"access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA");// + 
-      //"T6YbdDixkOBWH_k9GbS8JQ");
-
-   // var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/dark-v8/tiles/256/{z}/{x}/{y}?" +
-     // "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA" +
-    //  "T6YbdDixkOBWH_k9GbS8JQ");
-    
-  //  var outdoors = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-  //    "access_token=pk.eyJ1IjoibXVscmljaCIsImEiOiJja2xtem11dmwwNjFiMnVxbWJkbndydTJuIn0.-67p4ssJ-6AcglhLo2o6nA" +
-  //    "T6YbdDixkOBWH_k9GbS8JQ");
-  
-  
-    // Define a baseMaps object to hold our base layers
-    // Pass in our baseMaps 
-   // var baseMaps = {
-    //  "Satellite": satellite,
-    //  "Dark Map": darkmap,
-    //  "Outdoors": outdoors
-   // };
   // Define streetmap, lightmap and satellite layers
 
   var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}", {
